@@ -1,0 +1,42 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+#app {
+  background: #292738;
+  padding: 112px 123px;
+}
+.container {
+  width: fit-content;
+  background: #363447;
+  padding: 29px 48px;
+  border-radius: 16px;
+  text-align: center;
+  
+}
+.row-superior {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 59px;
+}
+.row-inferior .container {
+  width: 100%;
+  
+}
+.row-superior .container span:nth-child(1) {
+}
+.row-superior .container div:nth-child(2) {
+  width: 122px;
+  margin: 32px 0;
+}
+.row-superior .container div:nth-child(2) p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  color: #81fbb8;
+}
